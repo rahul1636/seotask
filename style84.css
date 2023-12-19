@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.swiper-slide-bg {
+  background: url(/dist/img/comma.webp) no-repeat bottom/150px 100px;
+}
+.h-108{
+  height: 37rem;
+}
+.imgedit{
+  filter: hue-rotate(355deg) saturate(8);
+}
+.banner{
+    background: url(../img/ezgif.com-gif-maker-i-d.webp) no-repeat center/cover;
+}
+@media screen and (max-width: 449px){
+   
+    .banner{
+    background: url(../img/ezgif.com-gif-maker-i-m.webp) no-repeat center top/contain;
+    padding-bottom: 20px !important;
+    }
+    .icon-img{
+    display:none;
+    }
+    .IVFCenter{
+        margin-top: 20%;
+    }
+   .textColor{
+    color:#fd7e14 !important;
+   }
+    .text-2xl {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    margin-top: -21px;
+   }
+    .textIVF{
+    font-weight: 800;
+    color: #0060aa;
+    }
+    .textIVFCenter {
+    line-height: 1.5rem!important;
+    }
+    .form-text{
+       /*margin-top: 20%; */
+    }
+   .fa-phone:before {
+    content: "\f095";
+    font-size:30px;
+   }
+   .fa-calendar:before {
+    content: "\f073";
+    font-size: 25px;
+   }
+   
+   *, ::after, ::before {
+    box-sizing: border-box;
+    font-size: 18px;
+}
+}
+.b-banner{
+    background: url(./img/bg.jpg) no-repeat center/cover;
+}
+.h-same{
+    padding: 10px;
+}
